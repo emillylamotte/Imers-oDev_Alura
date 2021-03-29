@@ -4,6 +4,9 @@ Exercícios/Códigos desenvolvidos durante a ImersãoDev Alura - 2ª Edição, e
 # conversorRealDolar
 Desenvolvido durante a aula 1, o conversor recebe um valor em Real do usuário e converte esse valor para um valor em Real
 
+# calculadora
+Calculadora de operações básicas, desenvolvida durante a aula 1 para praticar laços condicionais e a função prompt
+
 # meuAluraFlix
 Desenvolvido durante a aula 4 com o objetivo de explorar a estrutura de arrays, o aluraFlix é a primeira versão de um catálogo de filmes
 
