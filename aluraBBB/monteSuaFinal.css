@@ -1,0 +1,81 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    text-align:center;
+    background-image: url('https://i2.wp.com/www.multarte.com.br/wp-content/uploads/2018/12/fundo-branco8-1024x548.jpg?resize=696%2C372&ssl=1');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: orange;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: orange;
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding:10px;
+  }
+  
+  .page-logo {
+    width: 350px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  
+  #listaFavorito img {
+    margin: 10px;
+    display: inline;
+	justify-content: center;
+  align-items: center;
+	width: 250px;
+	height: 300px;
+  }
+  
+  .form-wrapper {
+    margin: 0 0 15px;
+  }
+  
+  .form-wrapper input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+  }
+  
+  .form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    background: #ff6600;
+    font-weight:bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .3s;
+  }
+  
+  .form-wrapper button:hover {
+    opacity:.8;
+  }
+
+h2 {
+ 
+  font-size: 25px;
+  font-family: menu;
+  margin-bottom:1px;
+  color: #ff6600;
+}
