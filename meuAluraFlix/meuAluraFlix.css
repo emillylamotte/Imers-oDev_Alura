@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    text-align:center;
+    background-image: url('https://wallpaperaccess.com/full/2063918.jpg');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .imagem {
+    display: inline;
+      justify-content: center;
+    align-items: center;
+      width: auto;
+      height: auto;
+       margin:5px;
+   }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  h2 {
+    margin-left:25px;
+    font-size: 25px;
+    font-family: menu;
+    margin-bottom:1px;
+    color: white;
+  }
+  
+  .page-title {
+    color: #E50914;
+    margin: 0 0 5px;
+    font-family: 'Netflix Sans';
+    font-size: 50px;
+  }
+  
+  .page-subtitle {
+    color: white;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    right:20px;
+  }
+  body > img {
+    margin: 0 10px;
+    margin-top:5px;
+  }
+  
+  
