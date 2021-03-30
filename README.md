@@ -1,5 +1,5 @@
 ## ImersaoDev Alura - 2ª Edição - 22/03/2021 à 02/04/2021
-Este repositório contém os exercícios/códigos desenvolvidos durante a ImersãoDev da Alura Cursos Online, onde foram apresentados conceitos básicos/intermediários de JavaScript, CSS e HTML.
+Este repositório contém os exercícios/códigos desenvolvidos durante a ImersãoDev da Alura Cursos Online, onde foram apresentados conceitos básicos/intermediários de JavaScript, CSS e HTML.<br>
 A base dos projetos desenvolvidos foi fornecida pela Alura e está disponível no CodePen: https://codepen.io/imersao-dev
 
 ### Projetos
