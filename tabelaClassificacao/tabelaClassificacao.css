@@ -1,0 +1,66 @@
+* {
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 400px;
+    background-image: url('http://1.bp.blogspot.com/-bga9g1NefU4/TctMyTQrxPI/AAAAAAAADY0/KKNzDtavmDE/s1600/poker.jpg');
+    background-color: #111;
+    background-size: 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+  font-size: 35px;
+  margin-top: 30px;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.page-subtitle {
+    color: white;
+    margin-top: 5px;
+    padding: 10px;
+    font-size:20px;
+ }
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: white;
+  font-size:50px;
+}
+
+th, tr, td {
+    border: solid 1px white;
+    color: white;
+  font-size:15px;
+}
+
+button {
+    border: solid 1px white;
+    color: black;
+  font-size:12px;
+}
