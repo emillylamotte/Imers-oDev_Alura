@@ -56,7 +56,9 @@ Calculadora básica
 - Projeto no CodePen: https://codepen.io/emillylamotte/pen/gOgwewV
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/79487290/112924068-d6c3d180-90e5-11eb-8e85-5e70217771fe.PNG" width="500"/>
+<img src="https://user-images.githubusercontent.com/79487290/113026600-a1f46080-915f-11eb-8848-f5752644f82f.PNG" width="500"/>
  <br>Tabela de classificação
   </p>
+  
+
 
