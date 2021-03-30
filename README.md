@@ -23,7 +23,7 @@ Coversor de moeda
 Calculadora básica
   </p>
   
- #### Aula 3 - Mentalista
+ #### Aula 3 - Jogo "Mentalista"
  Jogo de adivinhação desenvolvido durante a aula 3 com o objetivo de praticar o uso de funções já existentes (neste caso a função ***Math.random()*** ) e a inserção de dados sem utilizar o prompt. Durante o jogo o usuário tem um número limitado de tentativas para acertar o número entre 0 e 10 que foi gerado aleatoriamente.
 - Projeto no CodePen: https://codepen.io/emillylamotte/pen/PoWPMjX
 
