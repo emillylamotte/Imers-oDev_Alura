@@ -23,6 +23,15 @@ Coversor de moeda
 Calculadora básica
   </p>
   
+ #### Aula 3 - Mentalista
+ Jogo de adivinhação desenvolvido durante a aula 3 com o objetivo de praticar o uso de funções já existentes (neste caso a função ***Math.random()*** ) e a inserção de dados sem utilizar o prompt. Durante o jogo o usuário tem um número limitado de tentativas para acertar o número entre 0 e 10 que foi gerado aleatoriamente.
+- Projeto no CodePen: https://codepen.io/emillylamotte/pen/PoWPMjX
+
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/79487290/112930192-3a52fc80-90f0-11eb-886d-1bdb8ae7830a.PNG" width="500"/>
+ <br>Jogo "Mentalista"
+  </p>
+  
 #### Aula 4 - Cópia Netflix (meuAluraFlix)
  Desenvolvido durante a aula 4 com o objetivo de explorar a estrutura de arrays, o aluraFlix é a primeira versão de um catálogo de filmes
 - Projeto no CodePen: https://codepen.io/emillylamotte/pen/VwPerZY
