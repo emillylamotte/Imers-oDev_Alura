@@ -41,7 +41,6 @@ Calculadora básica
  <br>LamotteFlix
   </p>
 
-
 #### Aula 5 - Monte sua final (aluraBBB)
  Desenvolvido durante a aula 5 com o objetivo de entender melhor a declaração de funções e de inserção de informações pelo usuário, o "Monte sua final" é uma página para que o usuário insira seus 3 participantes favoritos do reality, que terão suas fotos exibidas na tela. 
 - Projeto no CodePen: https://codepen.io/emillylamotte/pen/bGgpwXX
