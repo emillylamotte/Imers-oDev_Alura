@@ -66,7 +66,7 @@ Calculadora básica
 
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/79487290/113222593-c0408600-925d-11eb-812b-8af5b78eb207.PNG" width="350"/>
- <br>Tabela de classificação
+ <br>Super Trunfo Vingadores
   </p>
   
 
