@@ -76,7 +76,7 @@ var cartaHomemDeFerro = {
   
   function exibeCartaJogador(){
     var divCartaJogador = document.getElementById("carta-jogador")
-    var moldura = '<img src="https://lh3.googleusercontent.com/proxy/W_b-71JUmSW-xuS4v8LUsgp3xqMSbj4AUenwIT_chg9xDYoALMMluQiHlYX8vynoZ8udvIkYaxZPQBiCEmBkCggGPct0-B8MscOQWB5L2sq4QNQ4XCo1qaltc_X-gzK48rdj1S__9hYmzyfbOXgYiHdGIlWC32Clfat96pvNbhQhZ695iYDfDnGb" style=" width: inherit; height: inherit; position: absolute;">';
+    var moldura = '<img src="https://lh3.googleusercontent.com/proxy/C_YTn5IvIUcpPBkxbeJJlQysHaxsbkzMysnaGO-lDqhNeKZRzB5IMstA2yI6Yy1zfqaMd1U-Mvaogpntxk1imOUXoo8k1-ynjLrAZHYJQwNtBW-FWzU7gO0lc3u5hRlzs1OiCCuxr41luxXnM26iu1fJhzH55pG3XHQ1zfBMU2ObhfxQiXOqdh4A" style=" width: inherit; height: inherit; position: absolute;">';
     
     divCartaJogador.style.backgroundImage=`url(${cartaJogador.imagem})`
     var nome = `<p class= "carta-subtitle">${cartaJogador.nome}</p>`
@@ -124,7 +124,7 @@ var cartaHomemDeFerro = {
   
   function exibeCartaMaquina(){
     var divCartaMaquina = document.getElementById("carta-maquina")
-    var moldura = '<img src="https://lh3.googleusercontent.com/proxy/W_b-71JUmSW-xuS4v8LUsgp3xqMSbj4AUenwIT_chg9xDYoALMMluQiHlYX8vynoZ8udvIkYaxZPQBiCEmBkCggGPct0-B8MscOQWB5L2sq4QNQ4XCo1qaltc_X-gzK48rdj1S__9hYmzyfbOXgYiHdGIlWC32Clfat96pvNbhQhZ695iYDfDnGb" style=" width: inherit; height: inherit; position: absolute;">';
+    var moldura = '<img src="https://lh3.googleusercontent.com/proxy/C_YTn5IvIUcpPBkxbeJJlQysHaxsbkzMysnaGO-lDqhNeKZRzB5IMstA2yI6Yy1zfqaMd1U-Mvaogpntxk1imOUXoo8k1-ynjLrAZHYJQwNtBW-FWzU7gO0lc3u5hRlzs1OiCCuxr41luxXnM26iu1fJhzH55pG3XHQ1zfBMU2ObhfxQiXOqdh4A" style=" width: inherit; height: inherit; position: absolute;">';
     
     divCartaMaquina.style.backgroundImage=`url(${cartaMaquina.imagem})`
     var nome = `<p class= "carta-subtitle">${cartaMaquina.nome}</p>`
