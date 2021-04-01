@@ -47,7 +47,7 @@ Calculadora básica
 - Projeto no CodePen: https://codepen.io/emillylamotte/pen/bGgpwXX
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/79487290/112923936-97958080-90e5-11eb-8225-a3aab5d184e4.PNG" width="500"/>
+<img src="https://user-images.githubusercontent.com/79487290/113225512-3516be80-9264-11eb-961a-38d3e483a0ba.PNG" width="500"/>
  <br>Monte sua Final 
   </p>
 
