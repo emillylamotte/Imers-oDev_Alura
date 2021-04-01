@@ -62,11 +62,12 @@ Calculadora básica
   
 #### Aula 7 e aula 8 - Super Trunfo - Vingadores (trunfoVingadores)
  Desenvolvido durante as aulas 7 e 8 com o objetivo de explorar ainda mais o uso de funções e objetos, além de exercitar habilidades de CSS e HTML.<br>
- Ao pressionar o botão "Sortear carta" o jogo Super Trunfo Vingadores sorteia para o usuário uma carta aleatória dentro do baralho, o usuário deve escolher qual atributo irá utilizar na partida. A partir disso, esse atributo é comparado ao mesmo atributo da carta da máquina (também gerada aleatoriamente) que só é revelada ao apertar "jogar" (à direita), definindo quem é o vencedor da partida. 
+ Ao pressionar o botão "Sortear carta" o jogo Super Trunfo Vingadores sorteia para o usuário uma carta aleatória dentro do baralho, o usuário deve escolher qual atributo irá utilizar na partida. A partir disso, esse atributo é comparado ao mesmo atributo da carta da máquina (também gerada aleatoriamente) que só é revelada ao apertar "jogar" (à direita), definindo quem é o vencedor da partida e contabilizando um ponto para o vencedor. Ao apertar em "Próxima rodada", uma nova rodada é iniciada e após 3 rodadas o jogo é finalizado.
 - Projeto no CodePen: https://codepen.io/emillylamotte/pen/yLggozv
 
+
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/79487290/113232448-824e5c80-9273-11eb-8178-168c8b67b9ee.PNG" width="450"/>
+<img src="https://user-images.githubusercontent.com/79487290/113328806-2aefd100-92f3-11eb-8c71-2f7a88cedaa3.PNG" width="500"/>
  <br>Super Trunfo Vingadores
   </p>
 
