@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="superTrunfo.css">
     <title>
         Imersão Dev - Aula 08
     </title>
@@ -15,7 +16,10 @@
         
      
         <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
-      <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+     
+      <div class="placar-jogo" id="placar">
+        <h1></h1>
+      </div>
       <div id="resultado">
               <h1></h1>
             </div> 
@@ -23,22 +27,26 @@
             <!--<h2></h2>-->
           
             <div class="wrapper">
-                <div>
-                    <div id="carta-jogador">
-                        <img src="https://lh3.googleusercontent.com/proxy/nyftPY9rjzKtHX4qA6-e859OQZ22u4u45-qrWx6csytUBFGD2O7Yd_EF7S8vLbwP0-w9HLyEmhyJb9uHj2ZVYT-8JS4UZzbA29rhYB2urmCAW2yPv0TKhWclO_3yx0xiyWZ_8jtxInsmXyt-nnQXvkTkDOSZh52cYPHfDkYpRJdGDVVUSSut-Aqp"
+                <div id = "cartas">     
+                    <div id="carta-jogador" class="carta">
+                        <img src="https://lh3.googleusercontent.com/proxy/bQwW-JeynNbOS6TdKSZlO6gJDHm_eLGtpBhLjEUsjLY67lYVQxY-9paNKjJbGuvjJH8vHi749omX2HLLDE2P-wl-Rnwp5WT_pycCpzw6X2a_HJO_c3pdevuh5-x9x575W0WCeBbyEkFHP5USoSoXx5WKaRlA-kOb9lTsW6C6ubTcJRVJYn2amTVX"
                             style=" width: inherit; height: inherit; position: absolute;">
                         <h3></h3>
                     </div>
-                </div>
-                <div>
+                
+                
                     <div id="carta-maquina" class="carta"><img
-                            src="https://lh3.googleusercontent.com/proxy/nyftPY9rjzKtHX4qA6-e859OQZ22u4u45-qrWx6csytUBFGD2O7Yd_EF7S8vLbwP0-w9HLyEmhyJb9uHj2ZVYT-8JS4UZzbA29rhYB2urmCAW2yPv0TKhWclO_3yx0xiyWZ_8jtxInsmXyt-nnQXvkTkDOSZh52cYPHfDkYpRJdGDVVUSSut-Aqp"
+                            src="https://lh3.googleusercontent.com/proxy/bQwW-JeynNbOS6TdKSZlO6gJDHm_eLGtpBhLjEUsjLY67lYVQxY-9paNKjJbGuvjJH8vHi749omX2HLLDE2P-wl-Rnwp5WT_pycCpzw6X2a_HJO_c3pdevuh5-x9x575W0WCeBbyEkFHP5USoSoXx5WKaRlA-kOb9lTsW6C6ubTcJRVJYn2amTVX"
                             style=" width: inherit; height: inherit; position: absolute;"></div>
+                   </div>
                 </div>
             </div>
-                       
+            <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+            <button type="button" id="btnProximaRodada" onclick="proximaRodada()" disabled="true">Próxima
+                rodada</button>           
         </form>
     </div>
+    <script src="superTrunfo.js"></script>
 </body>
 
 </html>
