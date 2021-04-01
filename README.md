@@ -65,10 +65,11 @@ Calculadora básica
 - Projeto no CodePen: https://codepen.io/emillylamotte/pen/yLggozv
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/79487290/113225331-c2a5de80-9263-11eb-8d00-1115e329da8c.PNG" width="350"/>
+<img src="https://user-images.githubusercontent.com/79487290/113232448-824e5c80-9273-11eb-8178-168c8b67b9ee.PNG" width="350"/>
  <br>Super Trunfo Vingadores
   </p>
-  
+
+
 
 
 
