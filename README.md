@@ -67,7 +67,7 @@ Calculadora básica
 
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/79487290/113328806-2aefd100-92f3-11eb-8c71-2f7a88cedaa3.PNG" width="500"/>
+<img src="https://user-images.githubusercontent.com/79487290/113328806-2aefd100-92f3-11eb-8c71-2f7a88cedaa3.PNG" width="450"/>
  <br>Super Trunfo Vingadores
   </p>
 
