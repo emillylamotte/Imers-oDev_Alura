@@ -76,7 +76,7 @@ var cartaHomemDeFerro = {
   
   function exibeCartaJogador(){
     var divCartaJogador = document.getElementById("carta-jogador")
-    var moldura = '<img src="https://lh3.googleusercontent.com/proxy/C_YTn5IvIUcpPBkxbeJJlQysHaxsbkzMysnaGO-lDqhNeKZRzB5IMstA2yI6Yy1zfqaMd1U-Mvaogpntxk1imOUXoo8k1-ynjLrAZHYJQwNtBW-FWzU7gO0lc3u5hRlzs1OiCCuxr41luxXnM26iu1fJhzH55pG3XHQ1zfBMU2ObhfxQiXOqdh4A" style=" width: inherit; height: inherit; position: absolute;">';
+    var moldura = '<img src="https://lh3.googleusercontent.com/proxy/nyftPY9rjzKtHX4qA6-e859OQZ22u4u45-qrWx6csytUBFGD2O7Yd_EF7S8vLbwP0-w9HLyEmhyJb9uHj2ZVYT-8JS4UZzbA29rhYB2urmCAW2yPv0TKhWclO_3yx0xiyWZ_8jtxInsmXyt-nnQXvkTkDOSZh52cYPHfDkYpRJdGDVVUSSut-Aqp" style=" width: inherit; height: inherit; position: absolute;">';
     
     divCartaJogador.style.backgroundImage=`url(${cartaJogador.imagem})`
     var nome = `<p class= "carta-subtitle">${cartaJogador.nome}</p>`
@@ -105,17 +105,17 @@ var cartaHomemDeFerro = {
     
     if (cartaJogador.atributos[atributoSelecionado] > cartaMaquina.atributos[atributoSelecionado])
     {
-       htmlResultado = '<p class="resultado-final"> Você venceu </p>'
+       htmlResultado = ('<div class="resultado-final">'+"<img src="+ "https://fontmeme.com/permalink/210401/6e24f28c014d4318cd1b08ba35b50dcd.png"+">"+'<div class="resultado-final">')
       
     }
     else if (cartaJogador.atributos[atributoSelecionado] < cartaMaquina.atributos[atributoSelecionado])
     {
-      htmlResultado = '<p class="resultado-final">Você perdeu</p>'
+      htmlResultado =('<div class="resultado-final">'+"<img src="+ "https://fontmeme.com/permalink/210401/676bab79b8b9a55f63dcd1324ac09672.png"+">"+'<div class="resultado-final">')
      
     }
     else
     {
-      htmlResultado = '<p class="resultado-final">Empate</p>'
+      htmlResultado =htmlResultado =('<div class="resultado-final">'+"<img src="+ "https://fontmeme.com/permalink/210401/8d143cd4be217969dbef81e825b4db4f.png"+">"+'<div class="resultado-final">')
       
     }
     divResultado.innerHTML = htmlResultado
@@ -124,7 +124,7 @@ var cartaHomemDeFerro = {
   
   function exibeCartaMaquina(){
     var divCartaMaquina = document.getElementById("carta-maquina")
-    var moldura = '<img src="https://lh3.googleusercontent.com/proxy/C_YTn5IvIUcpPBkxbeJJlQysHaxsbkzMysnaGO-lDqhNeKZRzB5IMstA2yI6Yy1zfqaMd1U-Mvaogpntxk1imOUXoo8k1-ynjLrAZHYJQwNtBW-FWzU7gO0lc3u5hRlzs1OiCCuxr41luxXnM26iu1fJhzH55pG3XHQ1zfBMU2ObhfxQiXOqdh4A" style=" width: inherit; height: inherit; position: absolute;">';
+    var moldura = '<img src="https://lh3.googleusercontent.com/proxy/nyftPY9rjzKtHX4qA6-e859OQZ22u4u45-qrWx6csytUBFGD2O7Yd_EF7S8vLbwP0-w9HLyEmhyJb9uHj2ZVYT-8JS4UZzbA29rhYB2urmCAW2yPv0TKhWclO_3yx0xiyWZ_8jtxInsmXyt-nnQXvkTkDOSZh52cYPHfDkYpRJdGDVVUSSut-Aqp" style=" width: inherit; height: inherit; position: absolute;">';
     
     divCartaMaquina.style.backgroundImage=`url(${cartaMaquina.imagem})`
     var nome = `<p class= "carta-subtitle">${cartaMaquina.nome}</p>`
