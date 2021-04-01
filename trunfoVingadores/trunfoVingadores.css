@@ -27,20 +27,34 @@ body {
     align-items: flex-end;
  }
 button, .button-jogar {
+    width: 10rem;
+    max-width: 10rem;
     padding: .8rem 1.5rem;
-    margin: 1rem 0;
+    margin: 2rem auto;
     border-radius: 5px;
     border: none;
-    
-    font-size: 1rem;
+    font-size: 1.2rem;
     background-color:black;
-    color:white;
+    color: white;
+    display: block;
+    
 }
 
 h2 {
-    color: white;
-    background-color:black;
+    color:black;
+    font-size: 25px;
     font-family:"Bayformance";
+}
+
+.placar-jogo{
+ color: white;
+ font-size: 30px;
+ background-color: black;
+ font-family:"Bayformance";
+ width:auto;
+ font-weight: lighter;
+  margin-bottom:5px;
+ 
 }
 
 #carta-jogador, #carta-maquina {
@@ -132,8 +146,7 @@ form {
     background-color:black;
     font-size:18px;
     font-style:"Bayformance";
-   
- 
+    
 }
 
 #cartas {
