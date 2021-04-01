@@ -57,15 +57,29 @@ var cartaHomemDeFerro = {
   }
   var cartas = [cartaHomemDeFerro,cartaCapitaoAmerica,cartaThor, cartaHulk,cartaHomemAranha,cartaCapitaMarvel]
   var cartaMaquina
+  var cartaJogador
+
+    var pontosJogador = 0
+    var pontosMaquina = 0
+    var rodadas = 3
+    atualizaPlacar()
+   
+function atualizaPlacar(){
+    var divPlacar = document.getElementById('placar')
+   
+    var html = '<div class="placar-jogo">'+ "Jogador    " + pontosJogador + "X" + pontosMaquina + "    Máquina"+ '<div class="placar-jogo">'
+    divPlacar.innerHTML = html
+  }
   
   function sortearCarta (){
-    var numeroCartaMaquina = parseInt(Math.random()*6)
+    var numeroCartaMaquina = parseInt(Math.random()* cartas.length)
     cartaMaquina = cartas[numeroCartaMaquina]
-    var numeroCartaJogador = parseInt(Math.random()*6)
-      while (numeroCartaJogador == numeroCartaMaquina)
+    var numeroCartaJogador = parseInt(Math.random()*cartas.length)
+    while (numeroCartaJogador == numeroCartaMaquina)
       {
         numeroCartaJogador = parseInt(Math.random()*6)
       }
+    
     cartaJogador = cartas [numeroCartaJogador]
     document.getElementById('btnSortear').disabled = true
     document.getElementById('btnJogar').disabled = false
@@ -76,7 +90,7 @@ var cartaHomemDeFerro = {
   
   function exibeCartaJogador(){
     var divCartaJogador = document.getElementById("carta-jogador")
-    var moldura = '<img src="https://lh3.googleusercontent.com/proxy/nyftPY9rjzKtHX4qA6-e859OQZ22u4u45-qrWx6csytUBFGD2O7Yd_EF7S8vLbwP0-w9HLyEmhyJb9uHj2ZVYT-8JS4UZzbA29rhYB2urmCAW2yPv0TKhWclO_3yx0xiyWZ_8jtxInsmXyt-nnQXvkTkDOSZh52cYPHfDkYpRJdGDVVUSSut-Aqp" style=" width: inherit; height: inherit; position: absolute;">';
+    var moldura = '<img src="https://lh3.googleusercontent.com/proxy/bQwW-JeynNbOS6TdKSZlO6gJDHm_eLGtpBhLjEUsjLY67lYVQxY-9paNKjJbGuvjJH8vHi749omX2HLLDE2P-wl-Rnwp5WT_pycCpzw6X2a_HJO_c3pdevuh5-x9x575W0WCeBbyEkFHP5USoSoXx5WKaRlA-kOb9lTsW6C6ubTcJRVJYn2amTVX" style=" width: inherit; height: inherit; position: absolute;">';
     
     divCartaJogador.style.backgroundImage=`url(${cartaJogador.imagem})`
     var nome = `<p class= "carta-subtitle">${cartaJogador.nome}</p>`
@@ -106,25 +120,50 @@ var cartaHomemDeFerro = {
     if (cartaJogador.atributos[atributoSelecionado] > cartaMaquina.atributos[atributoSelecionado])
     {
        htmlResultado = ('<div class="resultado-final">'+"<img src="+ "https://fontmeme.com/permalink/210401/6e24f28c014d4318cd1b08ba35b50dcd.png"+">"+'<div class="resultado-final">')
-      
+       pontosJogador++
     }
     else if (cartaJogador.atributos[atributoSelecionado] < cartaMaquina.atributos[atributoSelecionado])
     {
       htmlResultado =('<div class="resultado-final">'+"<img src="+ "https://fontmeme.com/permalink/210401/676bab79b8b9a55f63dcd1324ac09672.png"+">"+'<div class="resultado-final">')
-     
+      pontosMaquina++
     }
     else
     {
       htmlResultado =htmlResultado =('<div class="resultado-final">'+"<img src="+ "https://fontmeme.com/permalink/210401/8d143cd4be217969dbef81e825b4db4f.png"+">"+'<div class="resultado-final">')
       
     }
+    rodadas--
+    if (rodadas == 0)
+      {
+        alert ("Fim de Jogo")
+        if(pontosJogador>pontosMaquina){
+            htmlResultado = ('<div class="resultado-final">'+"<img src="+ "https://fontmeme.com/permalink/210401/6e24f28c014d4318cd1b08ba35b50dcd.png"+">"+'<div class="resultado-final">')
+      
+            
+        }
+        else if(pontosJogador<pontosMaquina){
+            htmlResultado =('<div class="resultado-final">'+"<img src="+ "https://fontmeme.com/permalink/210401/676bab79b8b9a55f63dcd1324ac09672.png"+">"+'<div class="resultado-final">')
+     
+        }
+        else{
+            htmlResultado =htmlResultado =('<div class="resultado-final">'+"<img src="+ "https://fontmeme.com/permalink/210401/8d143cd4be217969dbef81e825b4db4f.png"+">"+'<div class="resultado-final">')
+        }
+        
+      }
+    else{
+        document.getElementById('btnProximaRodada').disabled=false
+    }
+
     divResultado.innerHTML = htmlResultado
+    document.getElementById('btnJogar').disabled=true
+    atualizaPlacar()
     exibeCartaMaquina()
+   
   }
   
   function exibeCartaMaquina(){
     var divCartaMaquina = document.getElementById("carta-maquina")
-    var moldura = '<img src="https://lh3.googleusercontent.com/proxy/nyftPY9rjzKtHX4qA6-e859OQZ22u4u45-qrWx6csytUBFGD2O7Yd_EF7S8vLbwP0-w9HLyEmhyJb9uHj2ZVYT-8JS4UZzbA29rhYB2urmCAW2yPv0TKhWclO_3yx0xiyWZ_8jtxInsmXyt-nnQXvkTkDOSZh52cYPHfDkYpRJdGDVVUSSut-Aqp" style=" width: inherit; height: inherit; position: absolute;">';
+    var moldura = '<img src="https://lh3.googleusercontent.com/proxy/bQwW-JeynNbOS6TdKSZlO6gJDHm_eLGtpBhLjEUsjLY67lYVQxY-9paNKjJbGuvjJH8vHi749omX2HLLDE2P-wl-Rnwp5WT_pycCpzw6X2a_HJO_c3pdevuh5-x9x575W0WCeBbyEkFHP5USoSoXx5WKaRlA-kOb9lTsW6C6ubTcJRVJYn2amTVX" style=" width: inherit; height: inherit; position: absolute;">';
     
     divCartaMaquina.style.backgroundImage=`url(${cartaMaquina.imagem})`
     var nome = `<p class= "carta-subtitle">${cartaMaquina.nome}</p>`
@@ -136,3 +175,17 @@ var cartaHomemDeFerro = {
     var html = "<div id='opcoes' class='carta-status'>"
     divCartaMaquina.innerHTML = moldura+nome+html+opcoesTexto+'</div>'
   }
+
+  function proximaRodada(){
+    
+    var divCartas = document.getElementById('cartas')
+    divCartas.innerHTML = `<div id="carta-jogador" class="carta"></div> <div id="carta-maquina" class="carta"></div>`
+ 
+    document.getElementById('btnSortear').disabled=false
+    document.getElementById('btnJogar').disabled=true
+    document.getElementById('btnProximaRodada').disabled=true
+
+    var divResultado = document.getElementById('resultado')
+    divResultado.innerHTML= ""
+ }
+
