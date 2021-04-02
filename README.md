@@ -71,7 +71,14 @@ Calculadora básica
  <br>Super Trunfo Vingadores
   </p>
 
+#### Aula 10 - Certificard e Encerramento
+ Durante a aula 10, foi desenvolvido um Certificado personalizado contendo as insígneas de cada projeto concluído na imersão.dev.
+- Projeto no CodePen: https://codepen.io/emillylamotte/pen/xxgqNZe
 
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/79487290/113433372-77034a00-93b5-11eb-93bc-adcf102f751a.PNG" width="400"/>
+ <br>Certificard
+  </p>
 
 
 
