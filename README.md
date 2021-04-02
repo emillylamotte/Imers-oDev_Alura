@@ -5,7 +5,7 @@ A base dos projetos desenvolvidos foi fornecida pela Alura e está disponível n
 ### Projetos
 
 #### Aula 1 - Conversor de moedas (conversorRealDolar)
- Desenvolvido durante a aula 1, o conversor recebe um valor em Real do usuário e converte esse valor para um valor em Real
+ Desenvolvido durante a aula 1, o conversor recebe um valor em dólar do usuário e converte esse valor para um valor em Real
 - Projeto no CodePen: https://codepen.io/emillylamotte/pen/eYgpvRB
 
 <p align="center"> 
