@@ -4,7 +4,7 @@ A base dos projetos desenvolvidos foi fornecida pela Alura e está disponível n
 
 ### Projetos
 
-#### Aula 1 - Conversor de moedas (conversorRealDolar)
+#### 💰 Aula 1 - Conversor de moedas (conversorRealDolar)
  Desenvolvido durante a aula 1, o conversor recebe um valor em dólar do usuário e converte esse valor para um valor em Real
 - Projeto no CodePen: https://codepen.io/emillylamotte/pen/eYgpvRB
 - Melhorias em desenvolvimento: Inserir outros tipos de conversão na mesma página.
@@ -14,7 +14,7 @@ A base dos projetos desenvolvidos foi fornecida pela Alura e está disponível n
 Coversor de moeda
   </p>
 
-#### Aula 2 - Calculadora (calculadora)
+#### 🔢 Aula 2 - Calculadora (calculadora)
  Calculadora de operações básicas, desenvolvida durante a aula 2 para praticar laços condicionais e a função prompt
 - Projeto no CodePen: https://codepen.io/emillylamotte/pen/NWdGZWw
 - Melhorias em desenvolvimento: Nova interface interativa.
@@ -24,7 +24,7 @@ Coversor de moeda
 Calculadora básica
   </p>
   
- #### Aula 3 - Jogo "Mentalista"
+ #### 🔮 Aula 3 - Jogo "Mentalista"
  Jogo de adivinhação desenvolvido durante a aula 3 com o objetivo de praticar o uso de funções já existentes (neste caso a função ***Math.random()*** ) e a inserção de dados sem utilizar o prompt. Durante o jogo o usuário tem um número limitado de tentativas para acertar o número entre 0 e 10 que foi gerado aleatoriamente.
 - Projeto no CodePen: https://codepen.io/emillylamotte/pen/PoWPMjX
 
@@ -33,7 +33,7 @@ Calculadora básica
  <br>Jogo "Mentalista"
   </p>
   
-#### Aula 4 - Cópia Netflix (meuAluraFlix)
+#### 🎬 Aula 4 - Cópia Netflix (meuAluraFlix)
  Desenvolvido durante a aula 4 com o objetivo de explorar a estrutura de arrays, o aluraFlix é a primeira versão de um catálogo de filmes
 - Projeto no CodePen: https://codepen.io/emillylamotte/pen/VwPerZY
 - Melhorias em desenvolvimento: Visualização do título e do trailer de cada filme.
@@ -42,7 +42,7 @@ Calculadora básica
  <br>LamotteFlix
   </p>
 
-#### Aula 5 - Monte sua final (aluraBBB)
+#### 🥇 Aula 5 - Monte sua final (aluraBBB)
  Desenvolvido durante a aula 5 com o objetivo de entender melhor a declaração de funções e de inserção de informações pelo usuário, o "Monte sua final" é uma página para que o usuário insira seus 3 participantes favoritos do reality, que terão suas fotos exibidas na tela. 
 - Projeto no CodePen: https://codepen.io/emillylamotte/pen/bGgpwXX
 - Melhorias em desenvolvimento: Mostrar a ficha de dados pessoais de cada participante.
@@ -51,7 +51,7 @@ Calculadora básica
  <br>Monte sua Final 
   </p>
 
-#### Aula 6 - Tabela de Classificação (tabelaClassificacao)
+#### 🏆 Aula 6 - Tabela de Classificação (tabelaClassificacao)
  Desenvolvido durante a aula 6 com o objetivo de entender melhor a declaração de tabelas e de objetos, a tabela de classificação armazena os pontos de um torneio de carteado entre 5 jogadores, onde cada vitória vale 10 pontos e cada derrota retira 1 ponto 
 - Projeto no CodePen: https://codepen.io/emillylamotte/pen/gOgwewV
 - Melhorias em desenvolvimento: Nova interface.
@@ -60,7 +60,7 @@ Calculadora básica
  <br>Tabela de classificação
   </p>
   
-#### Aula 7, aula 8 e aula 9 - Super Trunfo - Vingadores (trunfoVingadores)
+#### 🃏 Aula 7, aula 8 e aula 9 - Super Trunfo - Vingadores (trunfoVingadores)
  Desenvolvido durante as aulas 7,8 e 9 com o objetivo de explorar ainda mais o uso de funções e objetos, além de exercitar habilidades de CSS e HTML.<br>
  Ao pressionar o botão "Sortear carta" o jogo Super Trunfo Vingadores sorteia para o usuário uma carta aleatória dentro do baralho, o usuário deve escolher qual atributo irá utilizar na partida. A partir disso, esse atributo é comparado ao mesmo atributo da carta da máquina (também gerada aleatoriamente) que só é revelada ao apertar "jogar" (à direita), definindo quem é o vencedor da partida e contabilizando um ponto para o vencedor. Ao apertar em "Próxima rodada", uma nova rodada é iniciada e após 3 rodadas o jogo é finalizado.
 - Projeto no CodePen: https://codepen.io/emillylamotte/pen/yLggozv
@@ -71,7 +71,7 @@ Calculadora básica
  <br>Super Trunfo Vingadores
   </p>
 
-#### Aula 10 - Certificard e Encerramento
+#### 🎓 Aula 10 - Certificard e Encerramento
  Durante a aula 10, foi desenvolvido um Certificado personalizado contendo as insígneas de cada projeto concluído na imersão.dev.
 - Projeto no CodePen: https://codepen.io/emillylamotte/pen/xxgqNZe
 
